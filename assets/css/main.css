@@ -684,14 +684,14 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #1cb495;
-    border-color: #1cb495;
+    background: #4682B4;
+    border-color: #4682B4;
     color: #ffffff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #1cb495;
-    box-shadow: 0 0 0 2px #1cb495; }
+    border-color: #4682B4;
+    box-shadow: 0 0 0 2px #4682B4; }
 
 input[type="checkbox"] + label:before {
   border-radius: 6px; }
@@ -751,13 +751,13 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: #1fcaa7; }
+    background-color: #4682B4; }
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: #199e83; }
+    background-color: #4682B4; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
