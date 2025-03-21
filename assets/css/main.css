@@ -428,8 +428,8 @@ ul {
   ul li {
     padding-left: 0.5em; }
 
-/* Icons */
-ul.icons {
+/*  */
+ul. {
   cursor: default;
   list-style: none;
   padding-left: 0; }
@@ -782,7 +782,7 @@ button,
   margin: 0 0 0.55em 0; }
 
 #header p {
-  font-size: 1.35em;
+  font-size: 1.25em;
   line-height: 1.65em; }
 
 #header a {
