@@ -20,11 +20,31 @@
 			</header>
 
 		<!-- Signup Form -->
-		<form id="signup-form" method="POST" action="https://formsubmit.co/94cae3a5d53c82c5dfd5f51612cfd87a">
+		<form id="signup-form" method="POST" action="https://formsubmit.co/94cae3a5d53c82c5dfd5f51612cfd87a" onsubmit="showSuccess(event)">
 			<input type="email" name="email" id="email" placeholder="Email Address" required />
 			<input type="hidden" name="_captcha" value="false">
 			<button type="submit">Sign Up</button>
 		</form>
+		
+		<!-- Success message -->
+		<div id="success-message" style="display: none;">
+			<p>✔️ Thank you for signing up! We've received your email.</p>
+		</div>
+		
+		<script>
+		  function showSuccess(event) {
+			event.preventDefault();  // Prevents the form from submitting immediately
+			// Show success message
+			document.getElementById('success-message').style.display = 'block';
+			// Optionally, hide the form after submission
+			document.getElementById('signup-form').style.display = 'none';
+			
+			// Submit the form after displaying the success message
+			setTimeout(() => {
+			  document.getElementById('signup-form').submit();
+			}, 3000);  // Waits 3 seconds before actually submitting the form
+		  }
+		</script>
 
 		<!-- Footer -->
 		<footer id="footer"> 
