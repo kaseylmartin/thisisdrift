@@ -411,7 +411,7 @@ header h6 + p {
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
-    font-family: 'Playfair Display'; }
+    font-family: 'Font Awesome 5 Free'; }
 
 /* List */
 ol {
