@@ -411,7 +411,7 @@ header h6 + p {
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands'; }
+    font-family: 'Playfair Display'; }
 
 /* List */
 ol {
@@ -468,7 +468,7 @@ form {
       text-rendering: auto;
       line-height: 1;
       text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
+      font-family: 'Playfair Display';
       font-weight: 900; }
     form .message:before {
       margin-right: 0.5em; }
